@@ -1,0 +1,35 @@
+.logoMarca {
+    width: 20px;
+    height: 20px;
+}
+
+.logoDis {
+    width: 40px;
+    height: 40px;
+    align-items: center;
+}
+
+.carousel-item {
+    height: 400px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 50px;
+}
+
+.resto {
+    max-width: 100%;
+    height: 200px;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, Auto);
+    grid-gap: 10px;
+}
+
+.cheff{
+    max-width: 100%;
+    height: 200px;
+}
+

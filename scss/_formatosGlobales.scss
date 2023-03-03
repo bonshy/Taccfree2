@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:wght@300&family=Oswald:wght@200;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Exo 2', sans-serif;
+    background: linear-gradient(to left, #014669, #036383, #2d98b3, #48b8f0, #525d81);
+}
+
+header{
+    height: 100px;
+    margin-bottom: 25px;
+    background-color:white;
+}
+h1{
+    margin: 10px 10px 10px 20px;
+}
+h2{
+    margin-left: 30px;
+}
+h3{
+    margin-left: 30px;
+}
+
+p{
+    margin-left: 50px;
+    text-align: left;
+}
+.btnPropio {
+    background-color: #7571f0;
+    color: black;
+    margin: black solid;
+}
+
+.btnPropio:hover {
+    background-color: #161869;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.sectionB {
+    margin-top: 50px;
+}
+
+.comunidad {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+
+article {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+article h2 {
+    margin-bottom: 10px;
+}
+.special{
+    border:none;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
