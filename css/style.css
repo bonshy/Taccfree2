@@ -9,12 +9,6 @@ body {
   background: linear-gradient(to left, #014669, #036383, #2d98b3, #48b8f0, #525d81);
 }
 
-header {
-  height: 100px;
-  margin-bottom: 25px;
-  background-color: white;
-}
-
 h1 {
   margin: 10px 10px 10px 20px;
 }
