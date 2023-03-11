@@ -53,6 +53,11 @@ p {
   margin: 10px 10px;
 }
 
+.mainBody {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 footer {
   background-color: #333;
   color: #fff;
