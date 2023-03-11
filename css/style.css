@@ -15,21 +15,47 @@ header {
   background-color: white;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 h1 {
-  margin: 10px 10px 10px 20px;
+  font-size: 36px;
 }
 
 h2 {
-  margin-left: 30px;
+  font-size: 30px;
 }
 
 h3 {
-  margin-left: 30px;
+  font-size: 24px;
 }
 
 p {
-  margin-left: 50px;
-  text-align: left;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #050505;
+}
+
+p {
+  color: #131212;
+}
+
+.mainIndex {
+  margin: 20px 20px;
+  padding: auto;
 }
 
 .btnPropio {
@@ -201,6 +227,11 @@ article h2 {
 
 .special {
   border: none;
+}
+
+.cheff {
+  margin-top: 50px;
+  display: flex;
 }
 
 .formulario {

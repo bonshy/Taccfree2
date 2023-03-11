@@ -1,32 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:wght@300&family=Oswald:wght@200;600&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: 'Exo 2', sans-serif;
     background: radial-gradient(#014669, #036383, #2d98b3, #48b8f0, #525d81);
 }
 
-header{
+header {
     height: 100px;
     margin-bottom: 25px;
-    background-color:white;
-}
-h1{
-    margin: 10px 10px 10px 20px;
-}
-h2{
-    margin-left: 30px;
-}
-h3{
-    margin-left: 30px;
+    background-color: white;
 }
 
-p{
-    margin-left: 50px;
-    text-align: left;
+h1, h2, h3, h4, h5, h6, p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #050505;
+}
+
+p {
+    color: #131212;
+}
+
+.mainIndex{
+    margin: 20px 20px;
+    padding: auto;
 }
 .btnPropio {
     background-color: #7571f0;
@@ -49,4 +79,3 @@ p{
     justify-content: space-between;
     margin: 10px 10px;
 }
-
