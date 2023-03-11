@@ -6,20 +6,21 @@
 }
 
 .item {
-    width: 30%;
-    margin-bottom: 30px;
+    width: 25%;
     text-align: center;
+    margin: 1%;
     border-radius: 5%;
     border: black solid 1px;
 }
 
 .item img {
-    width: 33%;
+    width: 50%;
     height: auto;
+    margin: 5px;
 }
 
 .boton-comprar {
-    background-color: #ADD8E6;
+    background-color: #2d8faf;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -36,6 +37,7 @@
     .item {
         width: 45%;
         text-align: center;
+        padding: 15px;
     }
 }
 
@@ -43,5 +45,25 @@
     .item {
         width: 100%;
         text-align: center;
+        padding: 15px;
+    }
+}
+
+.tituloTienda {
+    animation: animarTienda 3s ease-in-out;
+}
+
+@keyframes animarTienda {
+    0% {
+        font-size: 20px;
+    }
+
+    50% {
+        font-size: 25px;
+        color: #7aafd3;
+    }
+
+    100% {
+        font-size: 20px;
     }
 }
