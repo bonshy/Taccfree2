@@ -47,12 +47,19 @@
 
 @media (max-width: 768px) {
     .contPadre {
-    grid-template-columns: repeat(2, 1fr);
+    grid-area: sectionA sectionB;
+    grid-area: sectionC sectionD;
+    grid-area: sectionE sectionF;
     }
 }
 
     @media (max-width: 480px) {
     .contPadre {
-    grid-template-columns: 1fr;
+    grid-area: sectionA;
+    grid-area: sectionB;
+    grid-area: sectionC;
+    grid-area: sectionD;
+    grid-area: sectionE;
+    grid-area: sectionF;
     }
 }
