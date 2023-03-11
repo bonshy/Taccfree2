@@ -21,11 +21,13 @@
 @media (max-width: 768px) {
     .item {
         width: 45%;
+        text-align: center;
     }
 }
 
 @media (max-width: 480px) {
     .item {
         width: 100%;
+        text-align: center;
     }
 }
