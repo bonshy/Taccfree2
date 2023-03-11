@@ -49,24 +49,3 @@ p{
     justify-content: space-between;
     margin: 10px 10px;
 }
-|
-article {
-    flex-basis: 30%;
-    margin-bottom: 20px;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-}
-
-article h2 {
-    margin-bottom: 10px;
-}
-.special{
-    border:none;
-}
-.formulario{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}

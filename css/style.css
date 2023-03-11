@@ -1,18 +1,175 @@
-/* Error: Expected identifier.
- *    ,
- * 52 | |
- *    |  ^
- *    '
- *   scss\_formatosGlobales.scss 52:2  @import
- *   scss\style.scss 1:9               root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Expected identifier.\a    \2577 \a 52 \2502  |\d\a    \2502   ^\a    \2575 \a   scss\\_formatosGlobales.scss 52:2  @import\a   scss\\style.scss 1:9               root stylesheet";
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:wght@300&family=Oswald:wght@200;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  font-family: "Exo 2", sans-serif;
+  background: radial-gradient(#014669, #036383, #2d98b3, #48b8f0, #525d81);
+}
+
+header {
+  height: 100px;
+  margin-bottom: 25px;
+  background-color: white;
+}
+
+h1 {
+  margin: 10px 10px 10px 20px;
+}
+
+h2 {
+  margin-left: 30px;
+}
+
+h3 {
+  margin-left: 30px;
+}
+
+p {
+  margin-left: 50px;
+  text-align: left;
+}
+
+.btnPropio {
+  background-color: #7571f0;
+  color: black;
+  margin: black solid;
+}
+
+.btnPropio:hover {
+  background-color: #161869;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.comunidad {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  margin-top: 30px;
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.col-md-4 {
+  width: 33.33%;
+  padding: 0 15px;
+}
+
+h4 {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.startUP {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.logoDesign {
+  width: 40px;
+  height: 40px;
+}
+
+.logoMarca {
+  width: 20px;
+  height: 20px;
+}
+
+.logoDis {
+  width: 40px;
+  height: 40px;
+  align-items: center;
+}
+
+.carousel-item {
+  height: 400px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 50px;
+}
+
+.resto {
+  max-width: 100%;
+  height: 200px;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, Auto);
+  grid-gap: 30px;
+}
+
+.cheff {
+  max-width: 100%;
+  height: 200px;
+}
+
+.seccion-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item {
+  width: 30%;
+  margin-bottom: 30px;
+  text-align: center;
+  border-radius: 5%;
+  border: black solid 1px;
+}
+
+.item img {
+  width: 33%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .item {
+    width: 45%;
+  }
+}
+@media (max-width: 480px) {
+  .item {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
