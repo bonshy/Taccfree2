@@ -1,65 +1,29 @@
-.products {
+.seccion-items {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
-.product {
-    background-color: #f0f0f0;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin-bottom: 20px;
-    width: calc(30% - 20px);
-}
-
-.product img {
-    max-width: 100%;
-    height: 300px;
-}
-
-
-.boton-principal {
-    background-color: #008CBA;
-    border: none;
-    color: white;
-    padding: 12px 24px;
+.item {
+    width: 30%;
+    margin-bottom: 30px;
     text-align: center;
-    text-decoration: none;
-    display: flex;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 4px;
 }
 
-@media (max-width: 350px) {
-    .boton-principal {
-        padding: 5px 10px;
-        font-size: 14px;
-    }
-}
-
-.contPadre{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+.item img {
+    width: 100%;
+    height: auto;
 }
 
 @media (max-width: 768px) {
-    .contPadre {
-    grid-area: sectionA sectionB;
-    grid-area: sectionC sectionD;
-    grid-area: sectionE sectionF;
+    .item {
+        width: 45%;
     }
 }
 
-    @media (max-width: 480px) {
-    .contPadre {
-    grid-area: sectionA;
-    grid-area: sectionB;
-    grid-area: sectionC;
-    grid-area: sectionD;
-    grid-area: sectionE;
-    grid-area: sectionF;
+@media (max-width: 480px) {
+    .item {
+        width: 100%;
     }
 }
